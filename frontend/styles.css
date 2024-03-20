@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif; /* Change the font family to a modern font */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom-image {
+    margin-top: auto; /* Push to the bottom */
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.advice-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.advice {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.top-image {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+

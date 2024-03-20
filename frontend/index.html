@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare Routine Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional CSS styles */
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .bottom-image {
+      margin-top: auto; /* Push to the bottom */
+      text-align: center;
+    }
+
+    .question-container {
+      margin-bottom: 20px;
+    }
+
+    .question {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .advice-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .advice {
+      font-size: 16px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <img src="skincare.png" alt="Top Image">
+  <div class="main-content">
+    <div class="question-container"></div>
+    <div class="advice-container"></div>
+  </div>
+  <div class="bottom-image">
+    <img src="skincare2.png" alt=".">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
